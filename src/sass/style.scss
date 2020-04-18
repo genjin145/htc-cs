@@ -1,0 +1,41 @@
+html,
+input,
+button,
+a {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+@import "./lib/swiper";
+
+@import "./mixin";
+@import "./container";
+
+@import "./blocks/scroll-bar";
+@import "./blocks/link";
+@import "./blocks/button";
+@import "./blocks/custom-checkbox";
+@import "./blocks/tabs";
+@import "./blocks/input";
+@import "./blocks/modal";
+
+
+@import "./blocks/header";
+@import "./blocks/logo";
+@import "./blocks/search";
+@import "./blocks/user-menu";
+
+@import "./blocks/section";
+@import "./blocks/channel";
+@import "./blocks/card-film";
+@import "./blocks/card-genre";
+@import "./blocks/card-channel";
+
+@import "./blocks/footer";
+@import "./blocks/footer-address";

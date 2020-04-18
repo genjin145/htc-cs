@@ -1,0 +1,48 @@
+.card-genre {
+  width: 100%;
+  height: 208px;
+}
+
+.card-genre__bg {
+  &-1 {
+    background-image: linear-gradient(136.27deg, #F2C94C 8.44%, #F29A4A 91.36%);
+  }
+  &-2 {
+    background-image: linear-gradient(136.27deg, #F2994A 8.44%, #EB5757 91.36%);
+  }
+  &-3 {
+    background-image: linear-gradient(136.27deg, #56CCF2 8.44%, #2F80ED 91.36%);
+  }
+  &-4 {
+    background-image: linear-gradient(136.27deg, #828282 8.44%, #333333 91.36%);
+  }
+}
+
+.card-genre__wrapper-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: inherit;
+  color: inherit;
+  text-decoration: none;
+  background-color: #F2F2F2;
+  box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  opacity: .8;
+}
+
+.card-genre__desc {
+  margin: 0;
+  margin-top: 80px;
+  margin-bottom: 32px;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.card-genre__title {
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 24px;
+}

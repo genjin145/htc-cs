@@ -1,0 +1,23 @@
+.input {
+  padding-bottom: 6px;
+  width: 100%;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #333333;
+  outline: none;
+
+  &::placeholder,
+  &::-webkit-input-placeholder,
+  &::-moz-placeholder,
+  &::-ms-input-placeholder {
+    color: #828282;
+    font-weight: normal;
+  }
+  &:-ms-input-placeholder {
+    color: #828282 !important;
+    font-weight: normal !important;
+  }
+}

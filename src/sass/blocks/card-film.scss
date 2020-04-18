@@ -1,0 +1,49 @@
+.card-film {
+  
+}
+
+.card-film__wrapper-link {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+
+.card-film__wrapper-link:hover .card-film-desc,
+.card-film__wrapper-link:focus .card-film-desc {
+  opacity: 1;
+}
+
+.card-film__info {
+  margin-bottom: 16px;
+  width: 100%;
+  height: 370px;
+  color: #F2F2F2;
+  border-radius: 8px;
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-film-desc {
+  opacity: 0;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, .8);
+  box-sizing: border-box;
+  transition: opacity 300ms;
+}
+
+.card-film-desc p {
+  margin: 0;
+  margin-bottom: 15px;
+  line-height: 140%;
+}
+
+.card-film__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: normal;
+}

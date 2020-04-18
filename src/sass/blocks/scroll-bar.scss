@@ -1,0 +1,52 @@
+.scroll-bar {
+  position: relative;
+  padding-right: 16px;
+  width: 100%;
+  // max-height: 700px;
+  overflow: hidden;
+}
+
+.scroll-bar__content {
+  position: relative;
+  padding-right: 17px;
+  margin-right: -34px;
+  // height: 700px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-bar__track {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 8px;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #F2F2F2;
+  border-radius: 2px;
+}
+
+.scroll-bar__thumb {
+  position: relative;
+  width: 8px;
+  height: 72%;
+  box-sizing: border-box;
+  border: 2px solid #F2F2F2;
+  background-color: #BDBDBD;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.select-none {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (max-width: 1199px) {
+  .scroll-bar {
+    width: auto;
+  }
+}

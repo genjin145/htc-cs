@@ -1,0 +1,14 @@
+.section {
+  margin-bottom: 32px;
+}
+
+.section__title {
+  margin-bottom: 16px;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.section__list {
+  @include reset-list;
+}

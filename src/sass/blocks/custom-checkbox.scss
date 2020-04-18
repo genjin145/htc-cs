@@ -1,0 +1,30 @@
+.custom-checkbox {
+  position: relative;
+  padding-left: 24px;
+  cursor: pointer;
+}
+
+.custom-checkbox__input {
+  display: none;
+}
+
+.custom-checkbox__box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+}
+
+.custom-checkbox__check {
+  visibility: hidden;
+}
+
+.custom-checkbox__input:checked + .custom-checkbox__box .custom-checkbox__check {
+  visibility: visible;
+}

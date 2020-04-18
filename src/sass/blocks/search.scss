@@ -1,0 +1,21 @@
+.search {
+  display: flex;
+  align-items: center;
+  width: 402px;
+}
+
+.search__input {
+  padding-bottom: 6px;
+  // width: 320px;
+}
+
+.search__submit {
+  flex-shrink: 0;
+  padding-left: 32px;
+}
+
+@media (max-width: 575px) {
+  .search {
+    width: 100%;
+  }
+}

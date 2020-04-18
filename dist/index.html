@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тестовое htc</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__logo">
+        <a class="logo" href="/">
+          <svg class="logo__image" width="37" height="36" viewBox="0 0 37 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M36.0218 20.132L11.8079 34.8889C13.76 35.6075 15.8708 36 18.0736 36C27.3311 36 34.9629 29.0683 36.0218 20.132ZM8 32.947C3.17469 29.7151 0 24.2268 0 18C0 11.7732 3.17469 6.28493 8 3.05296V32.947ZM10.8156 1.51023C13.037 0.539024 15.4921 0 18.0736 0C27.6944 0 35.5595 7.48655 36.1158 16.9292L10.8156 1.51023Z" fill="#E5261E"/>
+          </svg>
+      
+          <h1 class="logo__title">Видеосервис</h1>
+        </a>
+      </div>
+
+      <div class="header__search">
+        <form class="search" action="/">
+          <input class="search__input input" type="text" placeholder="Поиск...">
+          <button class="search__submit link">Найти</button>
+        </form>
+      </div>
+
+      <div class="header__user-menu">
+        <ul class="user-menu">
+          <li class="user-menu__item header__user">
+            <span class="user-menu__login input" contenteditable="true">Константин К.</span>
+          </li>
+          <li class="user-menu__item">
+            <button class="user-menu__signin button">Войти</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="home-main">
+    <div class="container">
+      <div class="tabs">
+        <ul class="tabs__nav">
+          <li class="tabs__nav-item">
+            <a class="tabs__nav-button" href="#films">Фильмы</a>
+          </li>
+          <li class="tabs__nav-item">
+            <a class="tabs__nav-button" href="#channel">Телеканалы</a>
+          </li>
+        </ul>
+
+        <section class="films tabs__content" id="films">
+          <h2 class="films__title" hidden>Фильмы</h2>
+
+          <article class="section">
+            <h3 class="section__title">🔥 Новинки</h3>
+
+            <div class="swiper-container">
+              <ul class="section__list swiper-wrapper">
+                <li class="swiper-slide">
+                  <article class="card-film">
+                    <a class="card-film__wrapper-link" href="/">
+                      <div class="card-film__info" style="background-image: url(./img/film_1.png);">
+                        <div class="card-film-desc">
+                          <p>Фильм повествует о череде событий, произошедших в Голливуде в 1969 году, на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии.</p>
+                        </div>
+                      </div>
+
+                      <h4 class="card-film__title">Мульт в кино. Выпуск №103. Некогда грустить!</h4>
+                    </a>
+                  </article>
+                </li>
+
+                <li class="swiper-slide">
+                  <article class="card-film">
+                    <a class="card-film__wrapper-link" href="/">
+                      <div class="card-film__info" style="background-image: url(./img/film_2.png);">
+                        <div class="card-film-desc">
+                          <p>Фильм повествует о череде событий, произошедших в Голливуде в 1969 году, на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии.</p>
+                        </div>
+                      </div>
+
+                      <h4 class="card-film__title">Новый Бэтмен</h4>
+                    </a>
+                  </article>
+                </li>
+
+                <li class="swiper-slide">
+                  <article class="card-film">
+                    <a class="card-film__wrapper-link" href="/">
+                      <div class="card-film__info" style="background-image: url(./img/film_3.png);">
+                        <div class="card-film-desc">
+                          <p>Фильм повествует о череде событий, произошедших в Голливуде в 1969 году, на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии.</p>
+                        </div>
+                      </div>
+
+                      <h4 class="card-film__title">Однажды... в Голливуде</h4>
+                    </a>
+                  </article>
+                </li>
+
+                <li class="swiper-slide">
+                  <article class="card-film">
+                    <a class="card-film__wrapper-link" href="/">
+                      <div class="card-film__info" style="background-image: url(./img/film_4.png);">
+                        <div class="card-film-desc">
+                          <p>Фильм повествует о череде событий, произошедших в Голливуде в 1969 году, на закате его «золотого века». Известный актер Рик Далтон и его дублер Клифф Бут пытаются найти свое место в стремительно меняющемся мире киноиндустрии.</p>
+                        </div>
+                      </div>
+
+                      <h4 class="card-film__title">Стриптизёрши</h4>
+                    </a>
+                  </article>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="section">
+            <h3 class="section__title">Жанры</h3>
+
+            <div class="swiper-container">
+              <ul class="section__list swiper-wrapper">
+                <li class="swiper-slide">
+                  <article class="card-genre">
+                    <a class="card-genre__wrapper-link card-genre__bg-1" href="/">
+                      <span class="card-genre__desc">😁</span>
+                      <h4 class="card-genre__title">Комедии</h4>
+                    </a>
+                  </article>
+                </li>
+
+                <li class="swiper-slide">
+                  <article class="card-genre">
+                    <a class="card-genre__wrapper-link card-genre__bg-2" href="/">
+                      <span class="card-genre__desc">😭</span>
+                      <h4 class="card-genre__title">Драмы</h4>
+                    </a>
+                  </article>
+                </li>
+
+                <li class="swiper-slide">
+                  <article class="card-genre">
+                    <a class="card-genre__wrapper-link card-genre__bg-3" href="/">
+                      <span class="card-genre__desc">👽</span>
+                      <h4 class="card-genre__title">Фантастика</h4>
+                    </a>
+                  </article>
+                </li>
+
+                <li class="swiper-slide">
+                  <article class="card-genre">
+                    <a class="card-genre__wrapper-link card-genre__bg-4" href="/">
+                      <span class="card-genre__desc">👻</span>
+                      <h4 class="card-genre__title">Ужасы</h4>
+                    </a>
+                  </article>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </section>
+
+        <section class="channel tabs__content" id="channel">
+          <h2 class="channel__title" hidden>Телеканалы</h2>
+
+          <article class="card-channel">
+            <div class="card-channel__left">
+              <a class="card-channel__link-logo" href="/">
+                <object type="image/svg+xml" data="./img/channel_1.svg">
+                  <img src="./img/channel_1.svg" alt="channel_1">
+                </object>
+              </a>
+            </div>
+
+            <div class="card-channel__right">
+              <h4 class="card-channel__title">
+                <a href="/">Первый канал</a>
+              </h4>
+
+              <ul class="card-channel__schedule">
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">13:00</a>
+                  <a class="card-channel__schedule-title" href="/">Новости (с субтитрами)</a>
+                </li>
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">14:00</a>
+                  <a class="card-channel__schedule-title" href="/">Давай поженимся</a>
+                </li>
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">15:00</a>
+                  <a class="card-channel__schedule-title" href="/">Другие новости</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card-channel">
+            <div class="card-channel__left">
+              <a class="card-channel__link-logo" href="/">
+                <object type="image/png" data="./img/channel_2.png">
+                  <img src="./img/channel_2.png" alt="channel_2">
+                </object>
+              </a>
+            </div>
+
+            <div class="card-channel__right">
+              <h4 class="card-channel__title">
+                <a href="/">2x2</a>
+              </h4>
+
+              <ul class="card-channel__schedule">
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">13:00</a>
+                  <a class="card-channel__schedule-title" href="/">МУЛЬТ ТВ. Сезон 4, 7 серия</a>
+                </li>
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">14:00</a>
+                  <a class="card-channel__schedule-title" href="/">ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия</a>
+                </li>
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">15:00</a>
+                  <a class="card-channel__schedule-title" href="/">БУРДАШЕВ. Сезон 1, 20 серия</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card-channel">
+            <div class="card-channel__left">
+              <a class="card-channel__link-logo" href="/">
+                <object type="image/svg+xml" data="./img/channel_3.svg">
+                  <img src="./img/channel_3.svg" alt="channel_3">
+                </object>
+              </a>
+            </div>
+
+            <div class="card-channel__right">
+              <h4 class="card-channel__title">
+                <a href="/">РБК</a>
+              </h4>
+
+              <ul class="card-channel__schedule">
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">13:00</a>
+                  <a class="card-channel__schedule-title" href="/">ДЕНЬ. Горючая смесь: как бороться с суррогатом на АЗС</a>
+                </li>
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">14:00</a>
+                  <a class="card-channel__schedule-title" href="/">ДЕНЬ. Главные темы</a>
+                </li>
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">15:00</a>
+                  <a class="card-channel__schedule-title" href="/">Главные новости</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card-channel">
+            <div class="card-channel__left">
+              <a class="card-channel__link-logo" href="/">
+                <object type="image/svg+xml" data="./img/channel_4.svg">
+                  <img src="./img/channel_4.svg" alt="channel_4">
+                </object>
+              </a>
+            </div>
+
+            <div class="card-channel__right">
+              <h4 class="card-channel__title">
+                <a href="/">AMEDIA PREMIUM</a>
+              </h4>
+
+              <ul class="card-channel__schedule">
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">13:00</a>
+                  <a class="card-channel__schedule-title" href="/">Клиент всегда мёртв</a>
+                </li>
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">14:00</a>
+                  <a class="card-channel__schedule-title" href="/">Голодные игры: Сойка-пересмешница. Часть I</a>
+                </li>
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">15:00</a>
+                  <a class="card-channel__schedule-title" href="/">Секс в большом городе</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="card-channel">
+            <div class="card-channel__left">
+              <a class="card-channel__link-logo" href="/">
+                <object type="image/png" data="./img/channel_2.png">
+                  <img src="./img/channel_2.png" alt="channel_2">
+                </object>
+              </a>
+            </div>
+
+            <div class="card-channel__right">
+              <h4 class="card-channel__title">
+                <a href="/">2x2</a>
+              </h4>
+
+              <ul class="card-channel__schedule">
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">13:00</a>
+                  <a class="card-channel__schedule-title" href="/">МУЛЬТ ТВ. Сезон 4, 7 серия</a>
+                </li>
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">14:00</a>
+                  <a class="card-channel__schedule-title" href="/">ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия</a>
+                </li>
+                <li class="card-channel__schedule-item">
+                  <a class="card-channel__schedule-time" href="/">15:00</a>
+                  <a class="card-channel__schedule-title" href="/">БУРДАШЕВ. Сезон 1, 20 серия</a>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container container">
+      <address class="footer-address">
+        <p class="footer-address__address">426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)</p>
+        
+        <p class="footer-address__tel">
+          <a href="tel:+7(3412)93-88-61">+7 (3412) 93-88-61</a>,
+          <a href="tel:+7(3412)43-29-29">+7 (3412) 43-29-29</a>
+        </p>
+
+        <a class="footer-address__site link link--blue" href="http://htc-cs.ru">htc-cs.ru</a>
+      </address>
+    </div>
+  </footer>
+
+  <section class="modal">
+    <div class="modal__overlay"></div>
+
+    <form class="modal__form" action="/">
+      <h2 class="modal__title">Вход</h2>
+
+      <div class="modal__field">
+        <input class="input" type="text" name="login" placeholder="Логин" required>
+      </div>
+
+      <div class="modal__field">
+        <input class="input" type="text" name="password" placeholder="Пароль" required>
+      </div>
+
+      <div class="modal__field">
+        <label class="custom-checkbox">Запомнить
+          <input class="custom-checkbox__input" type="checkbox" checked>
+          <span class="custom-checkbox__box">
+            <svg class="custom-checkbox__check" width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.18182 6.02273L0.795455 3.63636L0 4.43182L3.18182 7.61364L10 0.795454L9.20455 0L3.18182 6.02273Z" fill="#E5261E"/>
+            </svg>
+          </span>
+        </label>
+      </div>
+
+      <button class="modal__submit button">Войти</button>
+    </form>
+  </section>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

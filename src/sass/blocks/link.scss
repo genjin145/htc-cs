@@ -1,0 +1,27 @@
+.link {
+  margin: 0;
+  padding: 0;
+  color: #E5261E;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: color 300ms;
+}
+
+.link:hover,
+.link:focus {
+  color: #CC221B;
+}
+
+.link--blue {
+  color: #1F4766;
+}
+
+.link--blue:hover,
+.link--blue:focus {
+  color: #285577;;
+}

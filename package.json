@@ -1,0 +1,28 @@
+{
+  "name": "ntc-test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp serve",
+    "build": "gulp sass && gulp scripts"
+  },
+  "author": "mark",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1",
+    "nodelist-foreach-polyfill": "^1.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "swiper": "^5.3.7"
+  }
+}

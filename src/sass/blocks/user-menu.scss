@@ -1,0 +1,36 @@
+.user-menu {
+  @include reset-list;
+
+  display: flex;
+  align-items: center;
+}
+
+.user-menu__item {
+  margin-right: 16px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.user-menu__login {
+  display: block;
+  margin-bottom: -6px;
+  width: 170px;
+  height: 25px;
+  text-align: right;
+  font-weight: 500;
+  white-space: nowrap;
+  border-color: transparent;
+  overflow: hidden;
+}
+
+.user-menu__login:focus {
+  border-color: #333333;
+}
+
+@media (max-width: 575px) {
+  .user-menu__login {
+    width: 110px;
+  }
+}
